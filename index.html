@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCRC Health Club</title>
+    <link rel="icon" type="image/jpeg" href="logo.png"> <!-- Corrected the type attribute -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+  </script>
+    <div class="homegif">
+        <img src="homegif.gif" alt="Home GIF">
+    </div>
+
+    <header class="header">
+        <a href="index.html" class="logo"><img class="animate" src="animate.png" alt="Logo"></a>
+        <div class="menu" id="menu-icon"></div>
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home<span class="menu-line"></span></a>
+            <a href="#about" >About<span class="menu-line"></span></a>
+            <a href="#mission" >Mission & Vision<span class="menu-line"></span></a>
+            <a href="#gallery" >Gallery<span class="menu-line"></span></a>
+            <a href="#Join US" >Join US<span class="menu-line"></span></a>
+        </nav>
+        <div class="header-line"></div>
+    </header>
+    <div class="header-bg"></div>
+        <div  id="home" class="home-content">
+            <h1>CCRC HEALTH CLUB</h1>
+            <h2>Elevate Your Well-being</h2>
+            <div class="text-animate">
+                <h3>Discover Your Ultimate Fitness Journey</h3>
+            </div>
+            <p>Welcome to CCRC Health Club where health meets luxury. Embrace a life of vitality and wellness as you embark on a transformative fitness experience with us.</p>
+            <div class="btn-box">
+                <a href="https://www.facebook.com/CCRCHEALTHCLUB" target="_blank" class="btn">Contact Us</a>
+                <a href="#about" class="btn">About Us</a>
+            </div>
+    </div>
+    <div id="rand-gap">
+    <div class="home-sci">
+            <a href="https://www.facebook.com/CCRCHEALTHCLUB" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="mailto:ccrchealthclub2010@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>            
+    </div>
+    </div>
+      </div>
+      <br>
+    <section class="about" id="about">
+        <br>
+        <h2 class="heading">About Us</h2>
+        <div class="about-content">
+            <img src="about.PNG">
+            <p>CCRC Health Club is more than just a fitness center; it's a holistic haven for your well-being. Our cutting-edge facility boasts top-notch equipment, invigorating group classes, and expert trainers dedicated to your health. Whether you're an athlete or a beginner, our tailored programs cater to all levels, ensuring you achieve your fitness aspirations. But we're more than just a gym; we're a vibrant community fostering lasting connections and a healthier lifestyle. Explore our wellness offerings, from nutrition guidance to relaxation therapies. At CCRC Health Club, we're committed to your journey toward vitality, offering the support and resources you need for a fulfilling, healthier life.</p>
+        </div>
+        <br><br><br><br><br>
+    </section>
+    
+
+    <section class="mission" id="mission">
+        <h2 class="heading">Our Mission & Vision</h2>
+        <div class="mission-content">    
+             <div>      
+            <p>We provide service to others, promote integrity, and advance world understanding, goodwill, and peace through our fellowship of business, professional, and community leaders.</p>
+            <p>Together, we see a world where people unite and take action to create lasting change — across the globe, in our communities, and in ourselves.</p>
+            <p>We provide service to others, promote integrity, and advance world understanding, goodwill, and peace through our fellowship of business, professional, and community leaders.</p>
+            </div>
+            <div class="gap-img">
+            <img class="msn1" src="mission.jpg">
+            <img  class="msn-2" src="mission2.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="achievements" id="achievements">
+        <video src="vid.mp4" muted autoplay loop ></video>
+    </section>
+
+
+    <section class="gallery" id="gallery">       
+        <h2 class="heading">Gallery</h2>
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slide">
+                <img src="img1.png" alt="Slide 1">
+              </div>
+              <div class="slide">
+                <img src="img2.png" alt="Slide 2">
+              </div>
+              <div class="slide">
+                <img src="img3.png" alt="Slide 3">
+              </div>
+              <div class="slide">
+                <img src="img4.png" alt="Slide 3">
+              </div>
+                       
+        </div>          
+        <script>
+            let currentIndex = 0;          
+            function showSlide(index) {
+              const slider = document.querySelector('.slider');
+              const slides = document.querySelectorAll('.slide');
+          
+              if (index >= slides.length) {
+                currentIndex = 0;
+              } else if (index < 0) {
+                currentIndex = slides.length - 1;
+              } else {
+                currentIndex = index;
+              }
+          
+              const offset = -currentIndex * 100;
+              slider.style.transform = `translateX(${offset}%)`;
+            }
+          
+            function nextSlide() {
+              showSlide(currentIndex + 1);
+            }
+          
+            function prevSlide() {
+              showSlide(currentIndex - 1);
+            }
+            setInterval(nextSlide, 3000);
+          
+            // Auto slide change example
+            // setInterval(nextSlide, 3000);
+        </script>
+    </section>
+    
+
+    <section class="join" id="join">
+        <h2 class="heading">Want to Join US?</h2>
+        <p>Unlock the doors to an exclusive community with our 'Join Us' navigation button, your gateway to an enriching club experience. Seamlessly integrated into our website, this inviting button extends an open invitation to individuals eager to become part of our vibrant club.</p>
+        <p>Clicking on 'Join Us' effortlessly directs you to our Facebook page and Gmail, offering two convenient avenues to initiate contact. Connect with us on Facebook, where you can explore the latest updates, engaging content, and connect with like-minded enthusiasts. Alternatively, shoot us a message directly through our Gmail account, ensuring a swift and personal response to any inquiries.</p>
+        <p>Embrace the opportunity to join a community that shares your passion and interests. The 'Join Us' button is not just a link; it's a key to unlocking a world of connection, camaraderie, and shared experiences. Take the first step in becoming a valued member of our club – click 'Join Us' and embark on a journey of discovery and connection today."</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 CCRC HEALTH CLUB. All rights reserved.</p>
+    </footer>
+</body>
+</html>
