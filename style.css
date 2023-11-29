@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nova+Square&family=Skranji&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ body{
     font-weight: 500;
     position: relative; /* Position relative for pseudo-element */
     margin-right: 85px;
-    font-family: 'Skranji', cursive;
+    font-family: 'Kanit';
 }
 
 /* Style the line */
@@ -115,14 +115,14 @@ body{
   font-size: 6.8rem;
   font-weight: 700;
   margin:-450px 0 0 40px; /* Adjust vertical margin as needed */
-  font-family: 'Skranji', cursive;
+  font-family:"Kanit";
 }
 
 .home-content h2{    
     font-size: 5.5rem;
     font-weight: 400;
     margin:10px 0 0 50px;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
     
 }
 
@@ -131,12 +131,12 @@ body{
     font-weight: 1000;    
     color: #BF0A30;
     margin: 20px 0 0 60px;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .home-content p{    
     font-size: 2rem;
     margin:20px 700px 0 70px;  
-    font-family: 'Skranji', cursive; 
+    font-family: "Kanit"; 
 }
 }
 .btn-box{
@@ -146,7 +146,7 @@ body{
     width: 34.5rem;
     height: 5rem;
     margin: 20px 0 0 150px;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
     
 }
 .btn-box .btn{
@@ -166,7 +166,7 @@ body{
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .btn-box .btn:hover{
     color: var(--main-color);
@@ -270,10 +270,10 @@ body{
 @media screen and (min-width:900px){
 .about h2{
     margin-left:40px;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 700;
     text-align: left;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 }
 .about-content img{
@@ -285,7 +285,7 @@ body{
 .about-content p{
     font-size: 2rem;
     margin: -300px 640px 0px 40px;
-    font-family: 'Skranji', cursive; 
+    font-family: "Kanit"; 
 }
 .home-sci{
     margin-left:100px;
@@ -299,7 +299,7 @@ body{
     font-size: 6rem;
     font-weight: 700;    
     text-align: left;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .mission-content{
     display: flex;
@@ -308,7 +308,7 @@ body{
     font-size: 2rem;
     width: 700px;
     margin: 20px 0px 0 20px;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
     
 }
 .mission-content img{
@@ -354,7 +354,7 @@ body{
     font-size: 6rem;
     font-weight: 700;
     text-align: center;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 }
 .join{
@@ -365,12 +365,12 @@ body{
     font-size: 6rem;
     font-weight: 700;
     text-align: left;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .join p{
     font-size: 2rem;
     margin: 0 40px 0px 40px;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 footer {
     background-color: #333;
@@ -426,7 +426,7 @@ footer {
     color: var(--text-color);
     font-weight: 400;
     position: relative; /* Position relative for pseudo-element */
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 #home{
     margin-left:30px;
@@ -460,7 +460,7 @@ footer {
   margin-left:-5px;
   font-size: 3.5rem;
   font-weight: 700;
-  font-family: 'Skranji', cursive;
+  font-family: "Kanit";
   
 }
 .home-content h2{    
@@ -469,7 +469,7 @@ footer {
     font-size: 2.5rem;
     margin-right: 20px;
     font-weight: 400;
-    font-family: 'Skranji', cursive;    
+    font-family: "Kanit";    
 }
 .home-content .text-animate h3{    
     font-size: 1.8rem;
@@ -477,14 +477,14 @@ footer {
     margin-top: 10px;
     font-weight: 800;    
     color: #BF0A30;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .home-content p{
     font-size: 1.3rem;
     margin-top: 10px;
     width: 299px;
     text-align: center;
-    font-family: 'Skranji', cursive; 
+    font-family: "Kanit"; 
 }
 .btn-box{
     position: relative;
@@ -493,7 +493,7 @@ footer {
     width: 26.5rem;
     height: 5rem;
     margin: 30px 0 0 15px;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
     
 }
 .btn-box .btn{
@@ -513,7 +513,7 @@ footer {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .btn-box .btn:hover{
     color: var(--main-color);
@@ -609,7 +609,7 @@ footer {
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .about-content img{
     width: 200px;
@@ -623,7 +623,7 @@ footer {
     font-size: 2rem;
     margin: 10px 30px 5px 30px;
     text-align: justify;
-    font-family: 'Skranji', cursive; 
+    font-family: "Kanit"; 
 }
 .mission{
     background-color: white;
@@ -633,14 +633,14 @@ footer {
     margin-left: 25px;
     font-size: 3.4rem;
     font-weight: 700;    
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 
 .mission-content p{
     font-size: 2rem;
     margin: 20px 30px 0 30px;
    /* text-align: justify; */
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
     
 }
 .gap-img{
@@ -685,20 +685,20 @@ footer {
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .join h2{
     margin: -20px 0 0 30px;
     font-size: 4rem;
     font-weight: 700;
     text-align: left;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 .join p{
     font-size: 2rem;
     margin: 20px 30px 0px 30px;
     text-align: justify;
-    font-family: 'Skranji', cursive;
+    font-family: "Kanit";
 }
 footer {
     background-color: #333;
