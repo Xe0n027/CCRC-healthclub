@@ -369,7 +369,7 @@ body{
 }
 .join p{
     font-size: 2rem;
-    margin: 0 40px 20px 40px;
+    margin: 0 40px 0px 40px;
     font-family: 'Skranji', cursive;
 }
 footer {
@@ -457,13 +457,15 @@ footer {
 
 .home-content h1 {
   margin-top: 130px;
+  margin-left:-5px;
   font-size: 3.5rem;
   font-weight: 700;
   font-family: 'Skranji', cursive;
   
 }
 .home-content h2{    
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
     font-size: 2.5rem;
     margin-right: 20px;
     font-weight: 400;
@@ -471,6 +473,7 @@ footer {
 }
 .home-content .text-animate h3{    
     font-size: 1.8rem;
+    margin-left: -5px;
     margin-top: 10px;
     font-weight: 800;    
     color: #BF0A30;
@@ -612,7 +615,7 @@ footer {
     width: 200px;
     align-items: center;
     height: 200px;
-    margin-left: 85px;
+    margin-left: 80px;
     margin-top: 5px;
 
 }
@@ -636,7 +639,7 @@ footer {
 .mission-content p{
     font-size: 2rem;
     margin: 20px 30px 0 30px;
-    text-align: justify;
+   /* text-align: justify; */
     font-family: 'Skranji', cursive;
     
 }
@@ -676,9 +679,10 @@ footer {
     border: 1px solid rgb(0, 0, 0);
     width: 350px;
 }
+
 .gallery h2{
-    margin: 40px 0 0 0;
-    font-size: 6rem;
+    margin: 20px 0 0 0;
+    font-size: 4rem;
     font-weight: 700;
     text-align: center;
     font-family: 'Skranji', cursive;
@@ -692,7 +696,7 @@ footer {
 }
 .join p{
     font-size: 2rem;
-    margin: 20px 30px 20px 30px;
+    margin: 20px 30px 0px 30px;
     text-align: justify;
     font-family: 'Skranji', cursive;
 }
@@ -708,4 +712,9 @@ footer {
 .homegif{
     display: none;
 }
+}
+.slide img:hover{
+    filter: blur(2.5px);
+    transition: 0.5s;
+    cursor: pointer;
 }
